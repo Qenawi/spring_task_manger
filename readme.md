@@ -58,7 +58,9 @@ This project aims to be a simple alternative to complex project management suite
 
 ## Configuration
 
-Configuration such as database credentials or email settings can be set in `application.yml` or `application.properties`. Ensure that the chosen database is accessible and properly configured.
+Configuration such as database credentials or email settings can be set in `application.yml` or `application.properties`.
+The application uses a MySQL database by default, so adjust the connection properties under `spring.datasource`.
+Authentication is JWT-based; update `security.jwt.secret` to change the signing key.
 
 ## License
 
