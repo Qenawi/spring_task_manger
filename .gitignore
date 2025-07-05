@@ -1,0 +1,9 @@
+# Ignore Maven build output
+target/
+app/target/
+
+# Legacy Gradle artifacts
+.gradle
+build
+app/build
+gradle/wrapper/gradle-wrapper.jar
